@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(27, 1, 51);
+}
+
+#navbarsection {
+    /* padding: 30px; */
+    
+    background-image: url('background.jpg') !important;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+#navbarsection #navbarsectionone .navbar{
+    padding-top: 40px;
+    background-color: rgba(81, 4, 153, 0.672);
+}
+
+#navbarsection #navbarsectionone .title, 
+#navbarsection #navbarsectionone .navbar{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+    color: rgb(167, 247, 8);
+}
+#navbarsection #navbarsectionone .navbar ul li a,
+#navbarsection #navbarsectionone .navbar ul li{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-size: 20px;
+}
+#navbarsection #navbarsectionone .navbar ul{
+    display:flex;
+    justify-content: center;
+}
+#navbarsection #navbarsectionone .navbar ul li{
+    padding-right: 20px;
+}
+
+#navbarsection #navbarsectionone .companydescription{
+    padding-top: 15%;
+    color: white;
+    text-align: center;
+    color: rgb(245, 228, 0);
+    font-family: 'Brush Script MT', Monospace;
+    font-size: 20px;
+    
+    
+}
+
+#contentsectionhome{
+    display: flex;
+    padding: 15%;
+    color: rgb(167, 247, 8);
+    font-size: 20px;
+    width: 70%;
+    
+    /* width: 40%; */
+}
+#contentsectionhome p{
+    padding-right: 70px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 25px;
+}
+#contentsectionhome img{
+    width: 50%;
+    box-shadow: 1px 1px 2px rgb(252, 252, 252), 0 0 25px rgb(235, 235, 235), 0 0 5px rgb(167, 247, 8);
+}
+#contentsectionmeetings{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 80px;
+    border: 1px solid rgb(167, 247, 8);
+    text-align: center;
+    
+}
+#contentsectionmeetings h1{
+    padding-bottom: 50px;
+    color: rgb(167, 247, 8);
+}
+
+#contentsectionmeetings form label{
+    display: block;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 100%;
+    color: rgb(167, 247, 8);
+    font-size: 20px;
+}
+#contentsectionmeetings form input,
+#contentsectionmeetings form textarea{
+    border: none;
+    padding: 12px;
+    width: 27%;
+    background-color: rgba(81, 4, 153, 0.672);
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+}
+#contentsectionmeetings form input[type=submit]{
+    padding: 10px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    width: 250px;
+    background-color: rgb(167, 247, 8);
+    color: black;
+}
+footer{
+    background-color: rgb(167, 247, 8);
+}
+footer p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+    text-align: center;
+    font-size: 18px;
+}

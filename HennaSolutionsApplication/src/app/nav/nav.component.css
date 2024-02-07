@@ -1,0 +1,30 @@
+#navbarsection #navbarsectionone .navbar{
+    padding-top: 40px;
+    background-color: rgba(81, 4, 153, 0.672);
+}
+
+#navbarsection #navbarsectionone .title, 
+#navbarsection #navbarsectionone .navbar{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+    color: rgb(167, 247, 8);
+}
+
+#navbarsection #navbarsectionone .navbar ul{
+    display:flex;
+    justify-content: center;
+}
+
+#navbarsection #navbarsectionone .navbar ul li{
+    padding-right: 20px;
+}
+
+#navbarsection #navbarsectionone .navbar ul li a,
+#navbarsection #navbarsectionone .navbar ul li{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-size: 20px;
+}

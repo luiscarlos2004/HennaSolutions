@@ -1,0 +1,10 @@
+footer{
+    background-color: rgb(167, 247, 8);
+}
+
+footer p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+    text-align: center;
+    font-size: 18px;
+}

@@ -1,0 +1,41 @@
+#contentsectionmeetings{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 80px;
+    border: 1px solid rgb(167, 247, 8);
+    text-align: center;
+    
+}
+
+#contentsectionmeetings h1{
+    padding-bottom: 50px;
+    color: rgb(167, 247, 8);
+}
+
+#contentsectionmeetings form label{
+    display: block;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 100%;
+    color: rgb(167, 247, 8);
+    font-size: 20px;
+}
+
+#contentsectionmeetings form input,
+#contentsectionmeetings form textarea{
+    border: none;
+    padding: 12px;
+    width: 27%;
+    background-color: rgba(81, 4, 153, 0.672);
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+#contentsectionmeetings form input[type=submit]{
+    padding: 10px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    width: 250px;
+    background-color: rgb(167, 247, 8);
+    color: black;
+}
